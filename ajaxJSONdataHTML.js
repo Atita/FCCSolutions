@@ -13,6 +13,7 @@
           keys.forEach(function(key) {
             html += "<strong>" + key + "</strong>: " + val[key] + "<br>";
           });
+          html += "<img src = '" + val.imageLink + "' " + "alt='" + val.altText + "'>";
           html += "</div><br>";
         });
 
