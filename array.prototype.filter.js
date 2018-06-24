@@ -1,4 +1,5 @@
 // the global Array
+// 06.23.2018
 var s = [23, 65, 98, 5];
 
 Array.prototype.myFilter = function(callback) {
